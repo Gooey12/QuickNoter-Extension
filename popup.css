@@ -1,0 +1,59 @@
+* {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -ms-touch-select: none;
+    -webkit-user-select: none;
+}
+
+body {
+    min-height: 430px;
+    min-width: 350px;
+    height: 430px;
+    width: 350px;
+    max-height: 430px;
+    max-width: 350px;
+
+    background-color: #E0F6FF !important;
+}
+
+.headertitle {
+    font-family: 'Lilita One', sans-serif;
+    color: #158CBA;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+}
+
+#Text {
+    width: 300px;
+    height: 320px;
+
+    resize: none;
+
+    font-family: 'Lato', sans-serif;
+}
+
+::selection {
+    background-color: rgba(0, 255, 255, 0.897);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgb(91, 217, 255) !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(56, 209, 255) !important;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #b9f7ff !important;
+}
